@@ -14,10 +14,12 @@ public class tabuada {
     }
 
     System.out.println("\nSubtração: ");
-    for(int i = 0; i <= 10; i++){
+    for(int i = 0; i <= numBase + 10; i++){
+      if(i >= numBase){
       int result = i - numBase;
       System.out.printf("%d - %d = %d\n", i, numBase, result);
     }
+  }
 
     System.out.println("\nMultiplicação: ");
     for(int i = 0; i <= 10; i++){
